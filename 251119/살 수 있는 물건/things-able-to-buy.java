@@ -11,7 +11,7 @@ public class Main {
         } else if (n>=1000) {
             System.out.println("mask");
         } else {
-            System.out.println("no./");
+            System.out.println("no");
         }
 
     }
