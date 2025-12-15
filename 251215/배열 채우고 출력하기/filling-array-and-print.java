@@ -4,13 +4,13 @@ public class Main {
     public static void main(String[] args) {
         // Please write your code here.
         Scanner sc = new Scanner(System.in);
-        String[] save = new String[9];
+        char[] save = new char[10];
         for(int i = 0; i<save.length; i++) {
-            save[i] = sc.nextLine();
+            save[i] = sc.next().charAt(0);
         }
 
-        for(int j = 0; j<save.length; j++) {
-            System.out.print(save[9-j]);
+        for(int j = 9; j>=0; j--) {
+            System.out.print(save[j]);
         }
     }
 }
