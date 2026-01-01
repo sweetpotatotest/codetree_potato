@@ -10,7 +10,7 @@ public class Main {
         for(int i = 1; i <= n; i++) {
             sum += i;
 
-            if(sum > n) {
+            if(sum >= n) {
                 System.out.println(i);
                 break;
             }
